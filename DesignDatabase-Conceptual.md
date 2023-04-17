@@ -10,10 +10,11 @@
       - [1.2. Xác định thuộc tính](#12-xác-định-thuộc-tính)
       - [1.3. Xác định ràng buộc](#13-xác-định-ràng-buộc)
     - [2. Xác định các mối quan hệ (relationships) giữa các thực thể](#2-xác-định-các-mối-quan-hệ-relationships-giữa-các-thực-thể)
-  - [2.1. Các loại mối kết hợp](#21-các-loại-mối-kết-hợp)
+      - [2.1. Các loại mối kết hợp](#21-các-loại-mối-kết-hợp)
     - [3. Thiết kế sơ đồ Entity-Relationship (ER diagram)](#3-thiết-kế-sơ-đồ-entity-relationship-er-diagram)
       - [3.1. Phân tích yêu cầu](#31-phân-tích-yêu-cầu)
     - [4. Kiểm tra và cải thiện thiết kế cơ sở dữ liệu ở mức conceptual](#4-kiểm-tra-và-cải-thiện-thiết-kế-cơ-sở-dữ-liệu-ở-mức-conceptual)
+
 
 
 # CONCEPTUAL
@@ -99,7 +100,7 @@ khi chọn thuộc tính nên xem xét kĩ cái nào cần cái nào không nhé
 Xác định tất cả các ràng buộc của các thuộc tính: ràng buộc miền giá trị, ràng buộc liên thuộc tính(giữa nhiều thuộc tính với nhau. Ví dụ: trong thực thể môn học thì số tiết thực hành phải ít hơn số tiết lý thuyết),.... nói chung là xác định tất cả ràng buộc.
 
 ### 2. Xác định các mối quan hệ (relationships) giữa các thực thể
-## 2.1. Các loại mối kết hợp
+#### 2.1. Các loại mối kết hợp
 * Unary Relationship: mối kết hợp phản thân. Ví dụ: Một nhân viên được quản lý bởi 1 nhân viên.
 * Binary Relationship: mối kết hợp nhị phân: Ví dụ: học sinh thuộc lớp
 * Tenary Relationship: mối kêt hợp đa phân (từ 3 trở lên nhưng nên tránh :> ).
@@ -109,10 +110,12 @@ xác định bảng số của mối kết hợp dựa vào ràng buộc. Ví d�
 
 #### 3.1. Phân tích yêu cầu
 Ở đây mình highlight màu vàng các danh từ có khả năng là thực thể và màu xanh cho các từ có thể là thuộc tính. màu đỏ cho những động từ có thể là mối kết hợp.
+
+
 ![phân tích](/image/eranalyst.png)
 
 
-Mình vẽ erd dựa vào những gì đã highligh. Cứ vẽ đi đã rồi chỗ nào không ổn mình chỉnh sửa tiếp :>
+Mình vẽ erd dựa vào những gì đã highligh. Cứ vẽ đi đã rồi chỗ nào không ổn mình chỉnh sửa tiếp :>>
 ![erd](/image/erd.png)
 
 ### 4. Kiểm tra và cải thiện thiết kế cơ sở dữ liệu ở mức conceptual
