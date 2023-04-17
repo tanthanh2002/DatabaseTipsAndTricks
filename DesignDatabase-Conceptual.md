@@ -1,3 +1,21 @@
+- [CONCEPTUAL](#conceptual)
+  - [I. Tổng quát](#i-tổng-quát)
+    - [1. Định nghĩa](#1-định-nghĩa)
+    - [2. Bộ ký hiệu (Notation)](#2-bộ-ký-hiệu-notation)
+      - [2.1. Chen Notation](#21-chen-notation)
+      - [2.2. Crow's foot Notation (ký hiệu chân chim)](#22-crows-foot-notation-ký-hiệu-chân-chim)
+  - [II. Các bước thiết kế ở mức conceptual](#ii-các-bước-thiết-kế-ở-mức-conceptual)
+    - [1. Xác định thực thể](#1-xác-định-thực-thể)
+      - [1.1. xác định thực thể và ví dụ](#11-xác-định-thực-thể-và-ví-dụ)
+      - [1.2. Xác định thuộc tính](#12-xác-định-thuộc-tính)
+      - [1.3. Xác định ràng buộc](#13-xác-định-ràng-buộc)
+    - [2. Xác định các mối quan hệ (relationships) giữa các thực thể](#2-xác-định-các-mối-quan-hệ-relationships-giữa-các-thực-thể)
+  - [2.1. Các loại mối kết hợp](#21-các-loại-mối-kết-hợp)
+    - [3. Thiết kế sơ đồ Entity-Relationship (ER diagram)](#3-thiết-kế-sơ-đồ-entity-relationship-er-diagram)
+      - [3.1. Phân tích yêu cầu](#31-phân-tích-yêu-cầu)
+    - [4. Kiểm tra và cải thiện thiết kế cơ sở dữ liệu ở mức conceptual](#4-kiểm-tra-và-cải-thiện-thiết-kế-cơ-sở-dữ-liệu-ở-mức-conceptual)
+
+
 # CONCEPTUAL
 
 ## I. Tổng quát
